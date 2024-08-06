@@ -6,7 +6,7 @@ import {SignUpScreen} from './screens/SignUpScreen.js'
 export default function App() {
   return (
     <View>
-      {SignUpScreen}
+      <SignUpScreen />
     </View>
   );
 }
