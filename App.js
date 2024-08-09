@@ -1,13 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
-import {SignUpScreen} from './screens/SignUpScreen.js'
+import SignUpScreen from './screens/SignUpScreen'; // Default import
 
 export default function App() {
   return (
-    <View>
+    <View style={{ flex: 1 }}> {/* Make sure the View takes up the full screen */}
       <SignUpScreen />
     </View>
   );
 }
-
